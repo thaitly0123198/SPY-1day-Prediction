@@ -1,1 +1,42 @@
-{"data_snapshot": 
+{
+  "ticker": "SPY",
+  "provider": "Yahoo Finance via yfinance",
+  "downloaded_at_utc": "2026-09-17T06:07:43+00:00",
+  "requested": {
+    "start": "2010-01-01",
+    "end_exclusive": "2026-08-31",
+    "interval": "1d",
+    "auto_adjust": false
+  },
+  "normalization": [
+    "flattened MultiIndex columns",
+    "index -> naive dates",
+    "column names lowercased"
+  ],
+  "library_versions": {
+    "yfinance": "1.7.0",
+    "pandas": "3.0.5",
+    "python": "3.11.15"
+  },
+  "snapshot": {
+    "filename": "spy_snapshot_2010-01-01_2026-08-31.csv",
+    "rows": 4189,
+    "columns": [
+      "adj_close",
+      "capital_gains",
+      "close",
+      "dividends",
+      "high",
+      "low",
+      "open",
+      "stock_splits",
+      "volume"
+    ],
+    "first_session": "2010-01-04",
+    "last_session": "2026-08-28"
+  },
+  "corporate_actions": {
+    "dividends_rows": 4189,
+    "splits_rows": 4189
+  }
+}
