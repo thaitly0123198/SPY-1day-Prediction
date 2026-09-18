@@ -27,3 +27,6 @@ The service:
 
 6. Out of scope
 - Multi days prediction
+
+7. Model used
+- XGboost over LightGBM since dataset is ~4000rows

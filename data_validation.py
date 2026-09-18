@@ -114,6 +114,6 @@ def main():
             )
         }
     }
-    (RAW_DIR / "data_validation_info.json").write_text(json.dumps(data_validation_info, indent=2))
+    (RAW_DIR / "data_validation_info1.json").write_text(json.dumps(data_validation_info, indent=2))
 if __name__ == "__main__":
     main()
